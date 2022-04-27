@@ -1,0 +1,103 @@
+.section-5 {
+  #main {
+    width: 100%;
+  }
+  .card {
+    border: 0;
+    border-bottom: 1px solid #ccc !important;
+    &:last-child{
+      border-bottom-width: 0 !important;
+    }
+  }
+  #main #faq .card {
+    border: 0;
+
+  }
+
+  #main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0);
+    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0);
+    border-radius: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  #main #faq .card .card-header .btn-header-link {
+    // color: #fff;
+    display: block;
+    // text-align: left;
+    // background: #ffe472;
+    // color: #222;
+    padding: 20px 0;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1e3837;   
+  }
+
+
+  #main #faq .card .card-header .btn-header-link.collapsed {
+    background: transparent;
+    color: #1e3837;
+
+  }
+
+
+  #main #faq .card .card-header .btn-header-link:after {
+    // content: "\f107";
+    content: '';
+    // font-family: "Font Awesome 5 Free";
+    // font-weight: 900;
+    float: right;
+    width: 18px;
+    height: 18px;
+    background-size: 18px 18px;
+    background-position: center center;
+    background-image: url('../images/arrow-up.png');
+    transform: rotate(180deg);
+  }
+  #main #faq .card .card-header .btn-header-link.collapsed:after {
+    transform: rotate(0deg);
+    // content: "\f106";
+    content: '';
+    width: 18px;
+    height: 18px;
+    background-size: 18px 18px;
+    background-position: center center;
+    background-image: url('../images/arrow-up.png');    
+  }
+
+  #main #faq .card .collapsing {
+    // background: #ffe472;
+    // line-height: 30px;
+  }
+
+  #main #faq .card .collapse {
+    border: 0;
+  }
+
+  #main #faq .card .collapse.show {
+    // background: #ffe472;
+    // line-height: 30px;
+    // color: #222;
+    color: #1e3837;
+  }
+  .card-body{
+    padding: 0;
+    p{
+      margin-bottom: 24px;
+      font-size: 16px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      color: #474747;
+    }
+  }
+}
