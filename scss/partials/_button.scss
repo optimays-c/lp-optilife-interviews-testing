@@ -1,0 +1,32 @@
+.btn{
+  border-radius: 6px;
+  height: 60px;
+  padding: 12px;
+  background-color: #0f215b;
+  color: #fff;
+  font-size: 14px;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #0f215b;
+  font-weight: bold;
+  min-width: 205px;
+  justify-content: center;
+  border-width: 0;
+  @extend %all-animation;
+  @media screen and (max-width: $tablet-portrait - 1) {
+    min-width: 100%;
+  }
+  &.disabled, &:disabled {
+    opacity: 1;
+  }
+  &:hover,
+  &:focus,
+  &:active{
+    border-color: transparent;
+    // box-shadow: none;
+    color: #fff;
+    @extend %all-animation;
+    opacity: 0.8;
+  }
+}
