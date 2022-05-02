@@ -26,3 +26,21 @@
   background-color: #fff;
   align-items: center;
 }
+.publicSpeakingDashboardGallery{  
+  .modal-dialog {
+    figure{
+      img{
+        max-width: 100%;
+      }
+    }
+    .close{
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;      
+    }
+    @media (min-width: 576px){
+      max-width: 90%;
+    }    
+  }
+}
